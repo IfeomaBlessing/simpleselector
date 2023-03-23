@@ -61,9 +61,7 @@
 }
 
 @media screen and (max-width:400px){
-    .container{
-        height: 90vh;
-    }
+   
     .menu-selector{
         width: 310px;
         overflow: hidden;
