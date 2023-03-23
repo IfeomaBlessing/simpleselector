@@ -1,0 +1,59 @@
+
+
+
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+    list-style:none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-selector{
+    width: 350px;
+}
+#menu-field{ width:100%;
+    background:yellow;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 2s;
+}
+#menu-field p{
+    font-size:20px;
+    font-weight:500;
+}
+
+.rotate {
+    transform:rotate(180deg);
+}
+
+#menu-list{ width:100%;
+    background:wheat;
+    margin-top:20px;
+    padding:10px 20px;
+    display:none;
+    
+}
+#menu-list li{
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+#menu-list li:hover{
+    background:rgb(228, 241, 228);
+    border-radius: 5px;
+}
+
+#menu-list p{
+    padding:5px 15px;
+    font-style: italic;
+}
